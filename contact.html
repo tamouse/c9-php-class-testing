@@ -1,0 +1,32 @@
+<form action="">
+    <fieldset>
+        <label for="name">Name:</label>
+        <input type="text" name="name" required/>
+    </fieldset>
+    <fieldset>
+        <label for="email">Email:</label>
+        <input type="email" name="email" required/>
+    </fieldset>
+    <fieldset>
+        <label for="comments">Comments:</label><br>
+        <textarea name="comments" rows="5" style="width: 90%;" required></textarea>
+    </fieldset>
+    <input type="submit" name="commit" value="Send comment" class="button"/>
+</form>
+<style type="text/css">
+    input[type="text"],input[type="email"],
+    textarea { 
+        width: 75%; 
+        border: 2px solid blue;
+        font-size: 1.6em;
+        font-family: monospace;
+    }
+    .button {
+        margin: 10px 0;
+        padding: 10px;
+        background-color: darkblue;
+        color: white;
+        font-size: 1.2em;
+        font-family: sans-serif;
+    }
+</style>
